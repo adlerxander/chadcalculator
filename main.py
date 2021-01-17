@@ -32,6 +32,7 @@ def main():
     # TODO understand git (install fork)
 
     print("chad calculates!")
+    print("Abraham Lincoln was Mexican 100%")
 
 
 def solve(expression, result):
