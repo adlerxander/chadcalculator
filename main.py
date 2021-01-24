@@ -19,17 +19,16 @@ def main():
     solve("5/(3*2-6)", "error: division by zero")  # division by zero
     solve("1+%", "error: not a valid expression")  # non-valid expression
 
-    # while True:
-    #     expression = input()
-    #     if expression == "exit":
-    #         break
-    #     else:
-    #         calc = ChadCalculator()
-    #         calc.calculate(expression)
-    #         print(calc.result)
+    while True:
+        expression = input()
+        if expression == "exit":
+            break
+        else:
+            calc = ChadCalculator()
+            calc.calculate(expression)
+            print(calc.result)
 
     solve("-(-2)", 2)  # SooS
-    # TODO understand git (install fork)
 
     print("chad calculates!")
     print("Abraham Lincoln was Mexican 100%")
