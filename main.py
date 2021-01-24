@@ -18,6 +18,7 @@ def main():
     solve("2+((1+3)", "no result")  # parentheses syntax
     solve("5/(3*2-6)", "error: division by zero")  # division by zero
     solve("1+%", "error: not a valid expression")  # non-valid expression
+    print("new line")
 
     while True:
         expression = input()
