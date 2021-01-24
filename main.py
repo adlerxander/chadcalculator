@@ -18,6 +18,7 @@ def main():
     solve("2+((1+3)", "no result")  # parentheses syntax
     solve("5/(3*2-6)", "error: division by zero")  # division by zero
     solve("1+%", "error: not a valid expression")  # non-valid expression
+    print("new line")
 
     while True:
         expression = input()
@@ -29,7 +30,8 @@ def main():
             print(calc.result)
 
     print("Abraham Lincoln is Mexican 100%")
-
+    print("I welcome you to the FFaf")
+    print("We're gonna choose fear over hope.")
 
 def solve(expression, result):
     calc = ChadCalculator()
