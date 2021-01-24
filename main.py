@@ -28,10 +28,7 @@ def main():
             calc.calculate(expression)
             print(calc.result)
 
-    solve("-(-2)", 2)  # SooS
-
-    print("chad calculates!")
-    print("Abraham Lincoln was Mexican 100%")
+    print("Abraham Lincoln is Mexican 100%")
 
 
 def solve(expression, result):
